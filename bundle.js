@@ -89,11 +89,18 @@ console.log('App Loaded');
 
 /***/ }),
 /* 3 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-console.log('login needed');
+"use strict";
 
-document.write("login needed!");
+
+var login = function login(username, password) {
+    if (username !== 'admin' || password !== 'radical') {
+        console.log('incorrect login');
+    }
+};
+
+login('admin', 'idunno');
 
 /***/ })
 /******/ ]);
