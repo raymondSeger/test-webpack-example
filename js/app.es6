@@ -6,3 +6,6 @@ login('admin', 'idunno');
 document.write("Welcome to Big Hair Concert!");
 
 console.log('App Loaded');
+
+require('../css/app.css');
+require('../css/moreCSS.css');
