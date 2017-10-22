@@ -67,7 +67,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-document.write("welcome to Big Hair Concert!!!");
+document.write("welcome 23 to Big Hair Concert!");
 
 console.log('App Loaded');
 
