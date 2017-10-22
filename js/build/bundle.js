@@ -81,7 +81,13 @@ console.log("this is utils file");
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(3);
+"use strict";
+//require('./login');
+
+
+var _login = __webpack_require__(3);
+
+(0, _login.login)('admin', 'idunno');
 
 document.write("Welcome to Big Hair Concert!");
 
@@ -94,13 +100,17 @@ console.log('App Loaded');
 "use strict";
 
 
+Object.defineProperty(exports, '__esModule', {
+    value: true
+});
 var login = function login(username, password) {
     if (username !== 'admin' || password !== 'radical') {
         console.log('incorrect login');
     }
 };
 
-login('admin', 'idunno');
+// login('admin', 'idunno');
+exports.login = login;
 
 /***/ })
 /******/ ]);
