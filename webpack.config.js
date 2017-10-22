@@ -1,6 +1,10 @@
+var path = require('path');
+
 module.exports = {
+    context: path.resolve('js'),
     entry: ["./utils.js", "./app.js"],
     output: {
+        path: path.resolve('js/build/'),
         filename: "bundle.js"
     },
     watch: true,
