@@ -27,7 +27,7 @@ module.exports = {
                 loader: 'style-loader!css-loader!autoprefixer-loader!sass-loader'
             },
             {
-                test: /\.(png|jpg)$/,
+                test: /\.(png|jpg|ttf|eot|otf|woff)$/,
                 exclude: /node_modules/,
                 loader: 'url-loader?limit=10000000'
             }

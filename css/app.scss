@@ -1,3 +1,13 @@
 body {
     background-color: green;
 }
+
+@font-face {
+    font-family: 'Bringshoot';
+    src: url('../fonts/Bringshoot.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Bringshoot.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Bringshoot.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/Bringshoot.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
