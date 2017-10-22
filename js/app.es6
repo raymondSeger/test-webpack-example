@@ -7,5 +7,5 @@ document.write("Welcome to Big Hair Concert!");
 
 console.log('App Loaded');
 
-require('../css/app.css');
-require('../css/moreCSS.css');
+require('../css/app.scss');
+require('../css/moreCSS.scss');
