@@ -65,11 +65,35 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(1);
+module.exports = __webpack_require__(2);
+
+
+/***/ }),
+/* 1 */
 /***/ (function(module, exports) {
+
+console.log("this is utils file");
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(3);
 
 document.write("welcome 23 to Big Hair Concert!");
 
 console.log('App Loaded');
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports) {
+
+console.log('login needed');
+
+document.write("login needed!");
 
 /***/ })
 /******/ ]);
